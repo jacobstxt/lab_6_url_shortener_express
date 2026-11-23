@@ -1,0 +1,27 @@
+{
+  "name": "lab_6",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobstxt/lab_6_url_shortener_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobstxt/lab_6_url_shortener_express/issues"
+  },
+  "homepage": "https://github.com/jacobstxt/lab_6_url_shortener_express#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "pg-promise": "^12.8.0"
+  }
+}
